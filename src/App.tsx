@@ -44,15 +44,15 @@ function App() {
                     focus:outline-none focus:ring-2 focus:ring-offset-2
                     transform transition-all duration-200 hover:scale-105
                     ${theme === 'dark' 
-                      ? 'bg-gray-700 text-white border-gray-600 hover:bg-gray-600 focus:ring-blue-500'
+                      ? 'bg-gray-700 text-gray-200 border-gray-600 hover:bg-gray-600 focus:ring-blue-500'
                       : 'bg-white text-gray-900 border-gray-300 hover:bg-gray-50 focus:ring-blue-400'
                     }
                   `}
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value as 'analizler' | 'etkinlikler')}
                 >
-                  <option value="analizler" className={theme === 'dark' ? 'bg-gray-700' : 'bg-white'}>Analizler</option>
-                  <option value="etkinlikler" className={theme === 'dark' ? 'bg-gray-700' : 'bg-white'}>Etkinlikler</option>
+                  <option value="analizler" className={`${theme === 'dark' ? 'text-gray-200 bg-gray-700' : 'text-gray-900 bg-white'}`}>Analizler</option>
+                  <option value="etkinlikler" className={`${theme === 'dark' ? 'text-gray-200 bg-gray-700' : 'text-gray-900 bg-white'}`}>Etkinlikler</option>
                 </select>
                 <div className={`
                   pointer-events-none absolute inset-y-0 right-0 flex items-center px-2
@@ -71,19 +71,19 @@ function App() {
                     focus:outline-none focus:ring-2 focus:ring-offset-2
                     transform transition-all duration-200 hover:scale-105
                     ${theme === 'dark'
-                      ? 'bg-gray-700 text-white border-gray-600 hover:bg-gray-600 focus:ring-blue-500'
+                      ? 'bg-gray-700 text-gray-200 border-gray-600 hover:bg-gray-600 focus:ring-blue-500'
                       : 'bg-white text-gray-900 border-gray-300 hover:bg-gray-50 focus:ring-blue-400'
                     }
                   `}
                   value={selectedMonth || ''}
                   onChange={(e) => setSelectedMonth(e.target.value ? Number(e.target.value) : null)}
                 >
-                  <option value="" className={theme === 'dark' ? 'bg-gray-700' : 'bg-white'}>Tüm Aylar</option>
+                  <option value="" className={`${theme === 'dark' ? 'text-gray-200 bg-gray-700' : 'text-gray-900 bg-white'}`}>Tüm Aylar</option>
                   {turkishMonths.map((month, index) => (
                     <option 
                       key={month} 
                       value={index + 1}
-                      className={theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600' : 'bg-white hover:bg-gray-50'}
+                      className={`${theme === 'dark' ? 'text-gray-200 bg-gray-700' : 'text-gray-900 bg-white'}`}
                     >
                       {month}
                     </option>
