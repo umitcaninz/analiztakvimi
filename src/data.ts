@@ -5,7 +5,8 @@ export const calendarData: DataStore = {
     "2023-09-01": {
       "date": "2023-09-01",
       "description": "Etkinlik bulunmamaktadır.",
-      "is_new": true
+      "is_new": true,
+      "link":"https://analiztakvimi.netlify.app/"
     },
     "2023-09-15": {
       "date": "2023-09-15",
