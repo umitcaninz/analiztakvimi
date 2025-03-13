@@ -8,8 +8,8 @@ export const calendarData: DataStore = {
       "is_new": true,
       "link":"https://analiztakvimi.netlify.app/"
     },
-    "2023-09-15": {
-      "date": "2023-09-15",
+    "2025-01-01": {
+      "date": "2025-01-01",
       "description": "Etkinlik bulunmamaktadır.",
       "is_new": false
     }
