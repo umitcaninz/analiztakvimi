@@ -32,7 +32,7 @@ function App() {
             <div className="flex items-center space-x-4 fade-in">
               <CalendarDays className="h-8 w-8 text-blue-600" />
               <h1 className={`text-2xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
-                ARAŞTIRMA DEKANLIĞI Analiz Takvimi
+                Araştırma Dekanlığı Analiz Takvimi
               </h1>
             </div>
             <div className="flex items-center space-x-4">
