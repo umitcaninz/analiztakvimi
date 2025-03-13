@@ -48,17 +48,24 @@ select option {
   transition: all 0.2s ease;
 }
 
-select option:checked {
-  background: linear-gradient(to right, #3b82f6 0%, #2563eb 100%);
-  color: white;
+[data-theme='dark'] select option {
+  background-color: #374151 !important; /* gray-700 */
+  color: #e5e7eb !important; /* gray-200 */
 }
 
-[data-theme='dark'] select option:hover {
-  background-color: #4b5563;
+[data-theme='dark'] select option:checked {
+  background: linear-gradient(to right, #1e40af 0%, #1d4ed8 100%) !important;
+  color: #ffffff !important;
 }
 
-[data-theme='light'] select option:hover {
-  background-color: #f3f4f6;
+[data-theme='light'] select option {
+  background-color: #ffffff !important;
+  color: #111827 !important; /* gray-900 */
+}
+
+[data-theme='light'] select option:checked {
+  background: linear-gradient(to right, #2563eb 0%, #3b82f6 100%) !important;
+  color: #ffffff !important;
 }
 
 /* Smooth Scroll */
