@@ -25,6 +25,17 @@ export const calendarData: DataStore = {
       "description": "Etki Faktörü 3 ve Üzeri Olan Yayınların Görünürlüğünün Sağlanması (8 Ay süre ile)",
       "is_new": true
     },
+    "2025-02-06": {
+      "date": "2025-02-06",
+      "description": "Metodoloji ve İstatistiksel Yöntemler Çalışması",
+      "is_new": true
+    },
+    "2025-02-13": {
+      "date": "2025-02-13",
+      "description": "Veri Analizi ve Yöntemsel Yaklaşımlar Çalışması",
+      "is_new": true
+    },
+    
     "2025-03-03": {
       "date": "2025-03-03",
       "description": "MYO ve AR-UY Merkezlerinden 6 Aylık Aksiyon Raporlarının Talep Edilmesi (e-BEYAS)",
