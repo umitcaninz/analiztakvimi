@@ -20,7 +20,7 @@ export const Calendar: React.FC<CalendarProps> = ({ events, selectedMonth, theme
     const days = [];
     
     // Add empty days for the start of the month
-    for (let i = 0; i < firstDay.getDay(); i++) {
+  for (let i = 0; i < (firstDay.getDay() + 6) % 7; i++) {
       days.push(null);
     }
     
