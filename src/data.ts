@@ -52,18 +52,18 @@ export const calendarData: DataStore = {
       "is_new": true,
       "link": "https://ardek.ankara.edu.tr/wp-content/uploads/sites/398/2025/03/KPS-KLT-ISB-10.03.2024.pdf"
     },
-    "2025-03-12": {
-      "date": "2025-03-12",
+    "2025-04-30": {
+      "date": "2025-04-30",
       "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
       "is_new": true
     },
-    "2025-03-14": {
-      "date": "2025-03-14",
+    "2025-04-24": {
+      "date": "2025-04-24",
       "description": "MYO'lardan ve AR-UY Merkezlerinden Aksiyon Raporlarının Araştırma Dekanlığı'na İletilmesi için SON GÜN",
       "is_new": true
     },
-    "2025-03-17": {
-      "date": "2025-03-17",
+    "2025-04-07": {
+      "date": "2025-04-07",
       "description": "Enstitülerin Verilerini Araştırma Dekanlığı'na İletilmesi için SON GÜN",
       "is_new": true
     },
@@ -72,8 +72,8 @@ export const calendarData: DataStore = {
       "description": "MYO Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
-    "2025-03-31": {
-      "date": "2025-03-31",
+    "2025-04-17": {
+      "date": "2025-04-17",
       "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
       "is_new": true
     },
@@ -87,8 +87,8 @@ export const calendarData: DataStore = {
       "description": "AR-UY Merkezleri Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
-    "2025-05-08": {
-      "date": "2025-05-08",
+    "2025-05-22": {
+      "date": "2025-05-22",
       "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
       "is_new": true
     },
