@@ -87,12 +87,6 @@ export const calendarData: DataStore = {
     },
 
 
-    "2025-03-27": {
-      "date": "2025-03-27",
-      "description": "MYO Aksiyon Raporlarının Yayınlanması",
-      "is_new": true
-    },
-
 
 
     "2025-05-22": {
