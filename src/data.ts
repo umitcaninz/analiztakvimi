@@ -70,8 +70,8 @@ export const calendarData: DataStore = {
     },
 
     
-    "2025-04-17": {
-      "date": "2025-04-17",
+    "2025-04-18": {
+      "date": "2025-04-18",
       "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
       "is_new": true
     },
