@@ -77,7 +77,7 @@ export const calendarData: DataStore = {
     },
         "2025-04-24": {
       "date": "2025-04-24",
-      "description": "MYO'lardan ve AR-UY Merkezlerinden Aksiyon Raporlarının Araştırma Dekanlığı'na İletilmesi için SON GÜN",
+      "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
     "2025-04-30": {
