@@ -70,11 +70,7 @@ export const calendarData: DataStore = {
     },
 
     
-    "2025-04-18": {
-      "date": "2025-04-18",
-      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
-      "is_new": true
-    },
+
         "2025-04-24": {
       "date": "2025-04-24",
       "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
@@ -87,7 +83,11 @@ export const calendarData: DataStore = {
     },
 
 
-
+    "2025-05-02": {
+      "date": "2025-05-02",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
 
     "2025-05-22": {
       "date": "2025-05-22",
