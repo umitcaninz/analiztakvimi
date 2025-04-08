@@ -71,8 +71,8 @@ export const calendarData: DataStore = {
 
     
 
-        "2025-04-24": {
-      "date": "2025-04-24",
+        "2025-04-18": {
+      "date": "2025-04-18",
       "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
