@@ -63,11 +63,6 @@ export const calendarData: DataStore = {
       "description": "Enstitülerin Verilerini Araştırma Dekanlığı'na İletilmesi için SON GÜN",
       "is_new": true
     },
-    "2025-04-17": {
-      "date": "2025-04-17",
-      "description": "AR-UY Merkezleri Aksiyon Raporlarının Yayınlanması",
-      "is_new": true
-    },
 
     
 
@@ -76,6 +71,12 @@ export const calendarData: DataStore = {
       "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
+        "2025-04-21": {
+      "date": "2025-04-21",
+      "description": "AR-UY Merkezleri Aksiyon Raporlarının Yayınlanması",
+      "is_new": true
+    },
+
     "2025-04-30": {
       "date": "2025-04-30",
       "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
