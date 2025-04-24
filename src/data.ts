@@ -64,19 +64,9 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-    
+  
 
-        "2025-04-18": {
-      "date": "2025-04-18",
-      "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
-      "is_new": true
-    },
 
-    "2025-04-30": {
-      "date": "2025-04-30",
-      "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
-      "is_new": true
-    },
         "2025-05-02": {
       "date": "2025-05-02",
       "description": "AR-UY Merkezleri ve Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
@@ -91,14 +81,24 @@ export const calendarData: DataStore = {
 
     "2025-05-22": {
       "date": "2025-05-22",
+      "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
+      "is_new": true
+    },
+    "2025-05-29": {
+      "date": "2025-05-29",
       "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
       "is_new": true
     },
+
+    
+
     "2025-06-02": {
       "date": "2025-06-02",
       "description": "Simülasyon ve Karşılaştırma Çalışmalarının Başlaması",
       "is_new": true
     },
+
+    
     "2025-07-03": {
       "date": "2025-07-03",
       "description": "Simülasyon ve Karşılaştırma Çalışma Raporlarının Yayınlaması",
