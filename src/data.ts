@@ -71,21 +71,20 @@ export const calendarData: DataStore = {
       "description": "Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
       "is_new": true
     },
-        "2025-04-21": {
-      "date": "2025-04-21",
-      "description": "AR-UY Merkezleri Aksiyon Raporlarının Yayınlanması",
-      "is_new": true
-    },
 
     "2025-04-30": {
       "date": "2025-04-30",
       "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
       "is_new": true
     },
-
-
-    "2025-05-02": {
+        "2025-05-02": {
       "date": "2025-05-02",
+      "description": "AR-UY Merkezleri ve Meslek Yüksekokulları Aksiyon Raporlarının Yayınlanması",
+      "is_new": true
+    },
+
+    "2025-05-15": {
+      "date": "2025-05-15",
       "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
       "is_new": true
     },
