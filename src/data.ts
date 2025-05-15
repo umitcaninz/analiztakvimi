@@ -73,19 +73,14 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-    "2025-05-15": {
-      "date": "2025-05-15",
-      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
-      "is_new": true
-    },
 
-    "2025-05-22": {
-      "date": "2025-05-22",
+    "2025-05-29": {
+      "date": "2025-05-29",
       "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
       "is_new": true
     },
-    "2025-05-29": {
-      "date": "2025-05-29",
+    "2025-06-10": {
+      "date": "2025-06-10",
       "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
       "is_new": true
     },
@@ -97,6 +92,12 @@ export const calendarData: DataStore = {
       "description": "Simülasyon ve Karşılaştırma Çalışmalarının Başlaması",
       "is_new": true
     },
+        "2025-06-15": {
+      "date": "2025-06-15",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
 
     
     "2025-07-03": {
