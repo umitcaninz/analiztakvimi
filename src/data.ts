@@ -79,6 +79,14 @@ export const calendarData: DataStore = {
       "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
       "is_new": true
     },
+
+      "2025-05-30": {
+      "date": "2025-05-30",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    
         "2025-06-02": {
       "date": "2025-06-02",
       "description": "Simülasyon ve Karşılaştırma Çalışmalarının Başlaması",
@@ -93,11 +101,7 @@ export const calendarData: DataStore = {
     
 
 
-        "2025-06-15": {
-      "date": "2025-06-15",
-      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
-      "is_new": true
-    },
+
 
 
     
