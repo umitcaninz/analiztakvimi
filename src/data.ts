@@ -74,11 +74,7 @@ export const calendarData: DataStore = {
     },
 
 
-    "2025-05-29": {
-      "date": "2025-05-29",
-      "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
-      "is_new": true
-    },
+
           "2025-05-30": {
       "date": "2025-05-30",
       "description": "ARDEK Ödülleri Başvurusu İçin SON GÜN",
@@ -95,6 +91,13 @@ export const calendarData: DataStore = {
     "2025-06-10": {
       "date": "2025-06-10",
       "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+
+        "2025-06-12": {
+      "date": "2025-06-12",
+      "description": "Öğretim Üyesi Yazarlık ve Yayın Analizi Raporunun Yayınlanması (2024 Yılı Raporu)",
       "is_new": true
     },
 
