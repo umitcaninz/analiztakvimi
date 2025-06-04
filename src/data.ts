@@ -101,13 +101,6 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-          "2025-06-15": {
-      "date": "2025-06-15",
-      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
-      "is_new": true
-    },
-
-
 
 
 
@@ -118,6 +111,16 @@ export const calendarData: DataStore = {
       "description": "Simülasyon ve Karşılaştırma Çalışma Raporlarının Yayınlaması",
       "is_new": true
     },
+
+          "2025-07-17": {
+      "date": "2025-07-17",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+
+
+    
     "2025-08-01": {
       "date": "2025-08-01",
       "description": "YKS Analizi Çalışması (ÖSYM Takvimine Göre)",
