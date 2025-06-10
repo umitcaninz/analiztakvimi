@@ -101,7 +101,11 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-
+         "2025-06-17": {
+      "date": "2025-06-17",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
 
 
 
@@ -112,11 +116,7 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-          "2025-07-17": {
-      "date": "2025-07-17",
-      "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
-      "is_new": true
-    },
+ 
 
 
 
