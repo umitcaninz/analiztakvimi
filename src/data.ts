@@ -97,21 +97,21 @@ export const calendarData: DataStore = {
       "is_new": true
     },
 
-         "2025-06-17": {
-      "date": "2025-06-17",
+         "2025-06-23": {
+      "date": "2025-06-23",
       "description": "Enstitü Performans Analizi Raporunun Yayınlanması",
       "is_new": true
     },
-    "2025-06-26": {
-      "date": "2025-06-26",
+    "2025-07-03": {
+      "date": "2025-07-03",
       "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
       "is_new": true
     },
 
 
     
-    "2025-07-03": {
-      "date": "2025-07-03",
+    "2025-07-10": {
+      "date": "2025-07-10",
       "description": "Simülasyon ve Karşılaştırma Çalışma Raporlarının Yayınlaması",
       "is_new": true
     },
