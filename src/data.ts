@@ -188,7 +188,7 @@ export const calendarData: DataStore = {
     },
     "2026-01-19": {
       "date": "2026-01-19",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     },
 
@@ -210,7 +210,7 @@ export const calendarData: DataStore = {
     },
     "2026-04-19": {
       "date": "2026-04-19",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     },
 
@@ -232,13 +232,13 @@ export const calendarData: DataStore = {
     },
     "2026-06-15": {
       "date": "2026-06-15",
-      "description": "Fakülte Performans Analizi Raporunun Yayınlanması (KPS-KLT-ISB)",
+      "description": "Fakülte Performans Analizi Raporunun Yayınlanması (KPS-KLT-ISB — 2025 Yılı Raporu)",
       "is_new": true
     },
 
     "2026-07-01": {
       "date": "2026-07-01",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS) ~~ MYO / Fakülte / Enstitü / AR-UY Merkezlerinden Aksiyon Raporu Verilerinin Talep Edilmesi",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS) ~~ MYO / Fakülte / Enstitü / AR-UY Merkezlerinden Aksiyon Raporu-2026 Verilerinin Talep Edilmesi",
       "is_new": true
     },
     "2026-07-16": {
@@ -248,13 +248,13 @@ export const calendarData: DataStore = {
     },
     "2026-07-19": {
       "date": "2026-07-19",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     },
 
     "2026-08-01": {
       "date": "2026-08-01",
-      "description": "YKS Analizi Çalışması (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2023-2025)",
+      "description": "YKS Analizi Çalışması 2026 (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2023-2025)",
       "is_new": true
     },
 
@@ -276,7 +276,7 @@ export const calendarData: DataStore = {
     },
     "2026-10-19": {
       "date": "2026-10-19",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     }
   },
