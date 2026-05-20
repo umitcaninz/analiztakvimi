@@ -179,6 +179,105 @@ export const calendarData: DataStore = {
       "date": "2025-12-31",
       "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi ~~ Fakülte  ~~ MYO ~~ AR-UY Merkezleri Performans Analizlerinin Yayınlanması (2026 Ocak Ayı İçinde Yayınlanacaktır.)",
       "is_new": true
+    },
+
+    "2026-01-01": {
+      "date": "2026-01-01",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS)",
+      "is_new": true
+    },
+    "2026-01-19": {
+      "date": "2026-01-19",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    "2026-02-01": {
+      "date": "2026-02-01",
+      "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi İçin Veri Çekilmesi (WoS)",
+      "is_new": true
+    },
+    "2026-02-19": {
+      "date": "2026-02-19",
+      "description": "Alan Bazlı Göstergelerin Karşılaştırmalı Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    "2026-04-01": {
+      "date": "2026-04-01",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS)",
+      "is_new": true
+    },
+    "2026-04-19": {
+      "date": "2026-04-19",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    "2026-05-20": {
+      "date": "2026-05-20",
+      "description": "Fakülte Performans Analizi için İlgili Birimlerden Veri Talep Edilmesi (KPS-KLT-ISB)",
+      "is_new": true
+    },
+
+    "2026-06-01": {
+      "date": "2026-06-01",
+      "description": "Enstitü Performans Analizi için Enstitülerden Veri Talep Edilmesi (2022-2024)",
+      "is_new": true
+    },
+    "2026-06-08": {
+      "date": "2026-06-08",
+      "description": "Fakülte Performans Analizi Verilerinin Araştırma Dekanlığı'na İletilmesi için SON GÜN",
+      "is_new": true
+    },
+    "2026-06-15": {
+      "date": "2026-06-15",
+      "description": "Fakülte Performans Analizi Raporunun Yayınlanması (KPS-KLT-ISB)",
+      "is_new": true
+    },
+
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS) ~~ MYO / Fakülte / Enstitü / AR-UY Merkezlerinden Aksiyon Raporu Verilerinin Talep Edilmesi",
+      "is_new": true
+    },
+    "2026-07-16": {
+      "date": "2026-07-16",
+      "description": "Enstitü Performans Analizi Verilerinin Araştırma Dekanlığı'na İletilmesi için SON GÜN",
+      "is_new": true
+    },
+    "2026-07-19": {
+      "date": "2026-07-19",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    "2026-08-01": {
+      "date": "2026-08-01",
+      "description": "YKS Analizi Çalışması (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2022-2024)",
+      "is_new": true
+    },
+
+    "2026-09-01": {
+      "date": "2026-09-01",
+      "description": "Araştırma Üniversiteleri Performans Sıralaması Simülasyon Çalışmasının Başlaması",
+      "is_new": true
+    },
+    "2026-09-24": {
+      "date": "2026-09-24",
+      "description": "Alt Yapı Projeleri Öncelikli Alanlar Etüt Çalışması-2 Raporunun Yayınlanması",
+      "is_new": true
+    },
+
+    "2026-10-01": {
+      "date": "2026-10-01",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS)",
+      "is_new": true
+    },
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması",
+      "is_new": true
     }
   },
   "haberler": {}
