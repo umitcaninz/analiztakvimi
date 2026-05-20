@@ -222,7 +222,7 @@ export const calendarData: DataStore = {
 
     "2026-06-01": {
       "date": "2026-06-01",
-      "description": "Enstitü Performans Analizi için Enstitülerden Veri Talep Edilmesi (2022-2024)",
+      "description": "Enstitü Performans Analizi için Enstitülerden Veri Talep Edilmesi (2023-2025)",
       "is_new": true
     },
     "2026-06-08": {
@@ -254,7 +254,7 @@ export const calendarData: DataStore = {
 
     "2026-08-01": {
       "date": "2026-08-01",
-      "description": "YKS Analizi Çalışması (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2022-2024)",
+      "description": "YKS Analizi Çalışması (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2023-2025)",
       "is_new": true
     },
 
