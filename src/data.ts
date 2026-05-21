@@ -235,26 +235,30 @@ export const calendarData: DataStore = {
       "description": "Fakülte Performans Analizi Raporunun Yayınlanması (KPS-KLT-ISB — 2025 Yılı Raporu)",
       "is_new": true
     },
-
-    "2026-07-01": {
-      "date": "2026-07-01",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS) ~~ MYO / Fakülte / Enstitü / AR-UY Merkezlerinden Aksiyon Raporu-2026 Verilerinin Talep Edilmesi",
-      "is_new": true
-    },
-    "2026-07-16": {
-      "date": "2026-07-16",
+    "2026-06-19": {
+      "date": "2026-06-19",
       "description": "Enstitü Performans Analizi Verilerinin Araştırma Dekanlığı'na İletilmesi için SON GÜN",
-      "is_new": true
-    },
-    "2026-07-19": {
-      "date": "2026-07-19",
-      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     },
 
     "2026-08-01": {
       "date": "2026-08-01",
-      "description": "YKS Analizi Çalışması 2026 (ÖSYM Takvimine Göre) ~~ Enstitü Performans Analizi Raporunun Yayınlanması (2023-2025)",
+      "description": "YKS Analizi Çalışması 2026 (ÖSYM Takvimine Göre)",
+      "is_new": true
+    },
+    "2026-08-02": {
+      "date": "2026-08-02",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi için Verilerin Çekilmesi (AVESİS) ~~ MYO / Fakülte / Enstitü / AR-UY Merkezlerinden Aksiyon Raporu-2026 Verilerinin Talep Edilmesi",
+      "is_new": true
+    },
+    "2026-08-13": {
+      "date": "2026-08-13",
+      "description": "Enstitü Performans Analizi Raporunun Yayınlanması (2023-2025)",
+      "is_new": true
+    },
+    "2026-08-20": {
+      "date": "2026-08-20",
+      "description": "Öğretim Üyesi Yayın ve Yazarlık Analizi Raporunun Yayınlanması (2025 Yılı Değerlendirmesi)",
       "is_new": true
     },
 
