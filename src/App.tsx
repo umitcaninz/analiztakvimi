@@ -48,11 +48,13 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4 fade-in">
-              <img
-                src="/logos/ardek-logo.png"
-                alt="Ankara Üniversitesi Araştırma Dekanlığı"
-                className="h-16 w-16 object-contain shrink-0"
-              />
+              <div className="h-16 w-16 shrink-0 rounded-full bg-white p-2 shadow-md ring-1 ring-accent-500/50 flex items-center justify-center">
+                <img
+                  src="/logos/ardek-logo.png"
+                  alt="Ankara Üniversitesi Araştırma Dekanlığı"
+                  className="h-full w-full object-contain"
+                />
+              </div>
               <div className="leading-tight">
                 <div className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em] text-accent-400">Ankara Üniversitesi</div>
                 <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">Araştırma Dekanlığı</h1>
