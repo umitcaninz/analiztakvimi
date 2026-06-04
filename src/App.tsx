@@ -3,7 +3,7 @@ import { Calendar } from './components/Calendar';
 import { turkishMonths, calendarData } from './data';
 import type { DataStore } from './types';
 import { apiGetAll } from './api';
-import { CalendarDays, Moon, Sun } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 
 function App() {
   const [selectedYear, setSelectedYear] = useState<number>(2026);
@@ -42,30 +42,36 @@ function App() {
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${theme === 'dark' ? 'bg-gray-900' : 'bg-gray-50'}`}>
-      <header className={`${theme === 'dark' ? 'bg-gray-900' : 'bg-white'} brand-gradient border-b ${theme === 'dark' ? 'border-gray-800' : 'border-gray-200'}`}>
-        <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
+    <div className={`relative overflow-hidden min-h-screen transition-colors duration-300 ${theme === 'dark' ? 'bg-gray-900' : 'bg-gray-50'}`}>
+      <div className="brand-watermark" aria-hidden="true" />
+      <header className="relative z-10 bg-brand-800 border-b-2 border-accent-500 shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 py-5 sm:px-6 lg:px-8">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4 fade-in">
-              <div className={`h-10 w-10 rounded-lg flex items-center justify-center ${theme === 'dark' ? 'bg-blue-600/20' : 'bg-blue-600/10'}`}>
-                <CalendarDays className="h-6 w-6 text-blue-600" />
+              <div className="h-16 w-16 shrink-0 rounded-full bg-white p-2 shadow-md ring-1 ring-accent-500/50 flex items-center justify-center">
+                <img
+                  src="/logos/ardek-logo.png"
+                  alt="Ankara Üniversitesi Araştırma Dekanlığı"
+                  className="h-full w-full object-contain"
+                />
               </div>
-              <div>
-                <h1 className={`text-2xl font-semibold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Araştırma Dekanlığı Analiz Takvimi</h1>
-                <p className={`text-sm ${theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}>Kurumsal planlama ve görünürlük</p>
+              <div className="leading-tight">
+                <div className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em] text-accent-400">Ankara Üniversitesi</div>
+                <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">Araştırma Dekanlığı</h1>
+                <p className="text-xs sm:text-sm text-brand-100/80">Analiz Takvimi · Kurumsal planlama ve görünürlük</p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               <div className="relative">
                 <select
                   className={`
                     appearance-none cursor-pointer
                     px-4 py-2 pr-10 rounded-lg brand-card
                     focus:outline-none focus:ring-2 focus:ring-offset-2
-                    transform transition-all duration-200 hover:scale-105
-                    ${theme === 'dark' 
-                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-blue-500'
-                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-blue-400'
+                    transition-colors duration-200
+                    ${theme === 'dark'
+                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-brand-500'
+                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-brand-400'
                     }
                   `}
                   value={selectedYear}
@@ -89,10 +95,10 @@ function App() {
                     appearance-none cursor-pointer
                     px-4 py-2 pr-10 rounded-lg brand-card
                     focus:outline-none focus:ring-2 focus:ring-offset-2
-                    transform transition-all duration-200 hover:scale-105
-                    ${theme === 'dark' 
-                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-blue-500'
-                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-blue-400'
+                    transition-colors duration-200
+                    ${theme === 'dark'
+                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-brand-500'
+                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-brand-400'
                     }
                   `}
                   value={selectedCategory}
@@ -117,10 +123,10 @@ function App() {
                     appearance-none cursor-pointer
                     px-4 py-2 pr-10 rounded-lg brand-card
                     focus:outline-none focus:ring-2 focus:ring-offset-2
-                    transform transition-all duration-200 hover:scale-105
+                    transition-colors duration-200
                     ${theme === 'dark'
-                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-blue-500'
-                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-blue-400'
+                      ? 'bg-gray-800 text-gray-200 border border-gray-700 hover:bg-gray-700 focus:ring-brand-500'
+                      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-brand-400'
                     }
                   `}
                   value={selectedMonth || ''}
@@ -151,7 +157,7 @@ function App() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto py-8 sm:px-6 lg:px-8 fade-in">
+      <main className="relative z-10 max-w-7xl mx-auto py-8 sm:px-6 lg:px-8 fade-in">
         <Calendar
           events={dataStore[selectedCategory]}
           selectedMonth={selectedMonth}
@@ -164,9 +170,8 @@ function App() {
       <button
         onClick={toggleTheme}
         className={`
-          fixed bottom-6 right-6 p-3 rounded-full brand-card
-          transform transition-all duration-300
-          hover:scale-110 hover:rotate-12
+          fixed bottom-6 right-6 z-20 p-3 rounded-full brand-card
+          transition-all duration-300 hover:scale-105
           focus:outline-none focus:ring-2 focus:ring-offset-2
           ${theme === 'dark'
             ? 'bg-yellow-400 text-gray-900 hover:bg-yellow-300 focus:ring-yellow-500'

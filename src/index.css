@@ -7,13 +7,14 @@
 }
 
 .brand-gradient {
-  background-image: radial-gradient(1200px 600px at 10% 0%, rgba(59,130,246,0.15), transparent),
-    radial-gradient(800px 400px at 90% 10%, rgba(37,99,235,0.12), transparent),
+  background-image: radial-gradient(1200px 600px at 10% 0%, rgba(31,63,134,0.12), transparent),
+    radial-gradient(800px 400px at 90% 10%, rgba(15,29,58,0.10), transparent),
     linear-gradient(180deg, rgba(255,255,255,0.0), rgba(255,255,255,0.0));
+  border-bottom: 2px solid rgba(201,162,39,0.45);
 }
 
 .brand-card {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 30px rgba(15,29,58,0.08);
 }
 
 .glass {
@@ -37,6 +38,23 @@
   --text-primary: #f3f4f6;
   --text-secondary: #d1d5db;
   --border-color: #374151;
+}
+
+/* Kurumsal arka plan watermark'ı (soluk logo) */
+.brand-watermark {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url('/logos/anku-watermark.png');
+  background-repeat: no-repeat;
+  background-position: center 58%;
+  background-size: min(620px, 65vw);
+  opacity: 0.05;
+}
+
+[data-theme='dark'] .brand-watermark {
+  opacity: 0.07;
 }
 
 /* Theme Toggle Button Animation */
@@ -77,7 +95,7 @@ select option {
 }
 
 [data-theme='dark'] select option:checked {
-  background: linear-gradient(to right, #1e40af 0%, #1d4ed8 100%) !important;
+  background: linear-gradient(to right, #0f1d3a 0%, #1f3f86 100%) !important;
   color: #ffffff !important;
 }
 
@@ -87,7 +105,7 @@ select option {
 }
 
 [data-theme='light'] select option:checked {
-  background: linear-gradient(to right, #2563eb 0%, #3b82f6 100%) !important;
+  background: linear-gradient(to right, #1f3f86 0%, #2b54a3 100%) !important;
   color: #ffffff !important;
 }
 

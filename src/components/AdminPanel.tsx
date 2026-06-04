@@ -152,7 +152,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ data, setData, theme, on
                       <div className="text-xs opacity-80">{ev.description}</div>
                     </div>
                     <div className="flex gap-2">
-                      <button className={`${buttonBase} ${isDark ? 'bg-blue-600 hover:bg-blue-500' : 'bg-blue-600 hover:bg-blue-500 text-white'}`} onClick={() => onSelect(ev.date)}>Düzenle</button>
+                      <button className={`${buttonBase} ${isDark ? 'bg-brand-600 hover:bg-brand-500' : 'bg-brand-600 hover:bg-brand-500 text-white'}`} onClick={() => onSelect(ev.date)}>Düzenle</button>
                       <button className={`${buttonBase} ${isDark ? 'bg-red-600 hover:bg-red-500' : 'bg-red-600 hover:bg-red-500 text-white'}`} onClick={() => deleteByKey(ev.date)}>Sil</button>
                     </div>
                   </li>

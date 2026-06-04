@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { AdminPanel } from './components/AdminPanel';
-import { CalendarDays, LogOut } from 'lucide-react';
+import { LogOut } from 'lucide-react';
 import { apiGetAll, apiLogin, apiUpsert, apiDelete } from './api';
 import type { DataStore } from './types';
 import { loadDataStore } from './storage';
@@ -94,16 +94,18 @@ export default function AdminApp() {
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className={`h-10 w-10 rounded-lg flex items-center justify-center ${theme === 'dark' ? 'bg-blue-600/20' : 'bg-blue-600/10'}`}>
-                <CalendarDays className="h-6 w-6 text-blue-600" />
-              </div>
+              <img
+                src="/logos/ardek-logo.png"
+                alt="Ankara Üniversitesi Araştırma Dekanlığı"
+                className="h-11 w-11 object-contain shrink-0"
+              />
               <h1 className={`text-2xl font-semibold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Admin</h1>
             </div>
             <div className="flex items-center space-x-3">
               <button
                 onClick={() => setTheme(prev => prev === 'light' ? 'dark' : 'light')}
-                className={`px-3 py-2 rounded-lg brand-card transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                  theme === 'dark' ? 'bg-gray-800 text-gray-200 border border-gray-700 focus:ring-blue-500' : 'bg-white text-gray-900 border border-gray-200 focus:ring-blue-400'
+                className={`px-3 py-2 rounded-lg brand-card transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                  theme === 'dark' ? 'bg-gray-800 text-gray-200 border border-gray-700 focus:ring-brand-500' : 'bg-white text-gray-900 border border-gray-200 focus:ring-brand-400'
                 }`}
               >
                 {theme === 'dark' ? 'Light' : 'Dark'}
@@ -111,7 +113,7 @@ export default function AdminApp() {
               {isAuthed && (
                 <button
                   onClick={onLogout}
-                  className={`px-3 py-2 rounded-lg brand-card transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-red-600 text-white hover:bg-red-500 focus:ring-red-500 flex items-center gap-2`}
+                  className={`px-3 py-2 rounded-lg brand-card transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-red-600 text-white hover:bg-red-500 focus:ring-red-500 flex items-center gap-2`}
                 >
                   <LogOut className="h-4 w-4" />
                   Çıkış
@@ -145,7 +147,7 @@ export default function AdminApp() {
                 />
               </div>
               {error && <div className="text-red-500 text-sm">{error}</div>}
-              <button type="submit" className={`w-full px-4 py-2 rounded-lg font-medium ${theme === 'dark' ? 'bg-blue-600 hover:bg-blue-500 text-white' : 'bg-blue-600 hover:bg-blue-500 text-white'}`}>Giriş</button>
+              <button type="submit" className="w-full px-4 py-2 rounded-lg font-medium bg-brand-600 hover:bg-brand-500 text-white transition-colors">Giriş</button>
             </form>
             <div className={`text-xs mt-3 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}>
               Varsayılan bilgiler: admin / admin123!
